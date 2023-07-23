@@ -4,6 +4,7 @@ import pic1 from '../assets/pic1.png';
 
 const Container=styled.div`
 width: 100%;
+
     /* background: #262625; */
     background-color: rgb(25, 26, 29);
     /* background: #262729; */

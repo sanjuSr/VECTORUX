@@ -8,7 +8,7 @@ const Container=styled.div`
 width: 100%;
 height: 800px;
 background: #191A1D;
-
+overflow: hidden;
 .main_div{
     display: flex;
 }
@@ -251,7 +251,10 @@ line-height: normal;
 }
 @media (max-width: 600px) {
     width: 100%;
-height: 1120px;
+height: 570px;
+
+background: #191A1D;
+
     margin-top: -230px;
     .main_div{
         width: 50%;
@@ -318,7 +321,8 @@ height: 1120px;
   }
   @media (min-width: 600px) and (max-width: 1000px) {
     width: 100%;
-height: 1120px;
+height: 920px;
+
     margin-top: -230px;
     .main_div{
         width: 50%;

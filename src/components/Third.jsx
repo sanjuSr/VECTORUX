@@ -8,12 +8,12 @@ const Container=styled.div`
 margin:0;
 padding: 0;
 background: rgb(25, 26, 29);
-height: 650px;
-
+height: 950px;
 @media (max-width: 600px){
     width: 100%;
     margin-top: -20px;
-    
+    background: #191A1D;
+
 .main_div .rectangle1{
     margin-left: 30px;
     width: 40px;
@@ -124,6 +124,8 @@ margin-left: 50px;
     margin: 0px 50px 0px 150px;
     text-align: center;
     align-items: center;
+    background: #191A1D;
+
 }
 .content2 {
     display: flex;
@@ -131,7 +133,8 @@ margin-left: 50px;
     width: 100%;
     text-align: center;
     align-items: center;
-   
+    background: #191A1D;
+
 }
 .content3 {
     display: flex;
@@ -140,6 +143,8 @@ margin-left: 50px;
     text-align: center;
     align-items: center;
     margin: 0px 150px 0px 50px;
+    background: #191A1D;
+
 }
 .vector {
     align-self: center;
@@ -200,7 +205,9 @@ background-clip: text;
 @media (min-width: 600px) and (max-width: 1000px) {
     width: 100%;
     margin-top: -10px;
-    
+    background: #191A1D;
+    height: 700px;
+
 .main_div .rectangle1{
     margin-left: 30px;
     width: 40px;
@@ -242,7 +249,7 @@ background-clip: text;
 }
 .offer-content .content2{
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .offer-content .content3{
 margin-left: 0px;

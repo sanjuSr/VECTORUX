@@ -9,6 +9,7 @@ const Container=styled.div`
 width: 100%;
 background: #191A1D;
 height: 400px;
+
 .main{
     display: flex;
     justify-content: space-between;

@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import First from './components/First';
 import Second from './components/Second';
 import Third from './components/Third';
-// import Four from './components/Four';
+
 import Five from './components/Five';
 
 
@@ -23,7 +23,7 @@ const Vector = () => {
            <First/>
            <Second/>
            <Third/>
-           {/* <Four/>  */}
+           
            <Five/>
            
     </Container>

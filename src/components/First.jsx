@@ -78,10 +78,10 @@ width: 100%;
 .txt1{  
     margin-top: -70px;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     background-color: rgb(25, 26, 29);
 width: 100%;
-/* margin-top: -100px; */
+height:350px ;
 .txt .h1{
     font-size: 35px;
     margin-top: -150px;
@@ -111,10 +111,9 @@ width: 100%;
     .main{
         font-size: 10px;
     font-weight: 200;
-    /* margin: 0vh 0px 0px 4vh; */
     }
 }
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     
         .h1 {
       font-size: 55px;
@@ -136,6 +135,43 @@ width: 100%;
     margin-left: 110px;
    }
   }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    width: 100%;
+    background-color: rgb(25, 26, 29);
+width: 100%;
+height:350px ;
+.txt .h1{
+    font-size: 35px;
+    margin-top: -150px;
+    margin-left:0px;
+}  
+    .txt .span1{
+        font-size: 35px;
+    }
+    .pic {
+        width: 100%;
+      height: 410px;
+      margin-left: 0px;
+      margin-top: -230px;
+      
+    }
+    .txt1{
+        margin-top:-40px;
+
+    }
+    .txt .h2{
+        font-size: 15px;
+        margin-top: 35px;
+    }
+    .txt1 .span2{
+        font-size: 17px;
+    }
+    .main{
+        font-size: 10px;
+    font-weight: 200;
+    }
+  }
+  
 `;
 const First = () => {
   return (

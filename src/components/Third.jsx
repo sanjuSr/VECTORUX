@@ -10,9 +10,9 @@ padding: 0;
 background: rgb(25, 26, 29);
 height: 650px;
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     width: 100%;
-    margin-top: -200px;
+    margin-top: -20px;
     
 .main_div .rectangle1{
     margin-left: 30px;
@@ -42,41 +42,46 @@ height: 650px;
     margin-top: 80px;
 }
 .offer-content {
-    /* display: flex; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     float: left;
     width: 100%;
     margin-left:0px;
     margin-right: 0px;
 }
 .offer-content .content1{
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right:10px ;
 }
 .offer-content .content2{
-    margin-left: -47px;
+    margin-left: 0px;
+    margin-top: 30px;
 }
 .offer-content .content3{
-    margin-left: 4px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 40px;
+background-color: rd;
+}
+.offer-content .content3 .content-def{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .offer-content .vector{
     width: 120px;
     height: 120px;
 }
+
 .offer-content .content-head{
-    font-size: 11px;
+    font-size: 30px;
     margin-top: 10px;
     margin-left: 0px;
 }
 .offer-content .content-def{
-    font-size:9px;
+    font-size:20px;
     margin-top: 15px;
     margin-left:-2px;
-}
-.content-head {
-    font-size: 9.2px;
-}
-.content-def {
-    font-size: 7px;
-    margin-top: 10px;
 }
 .offer-title{
     font-size: 10px;
@@ -126,6 +131,7 @@ margin-left: 50px;
     width: 100%;
     text-align: center;
     align-items: center;
+   
 }
 .content3 {
     display: flex;
@@ -191,6 +197,87 @@ background-clip: text;
     margin-right: 24px;
     margin-top: -150px;
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+    width: 100%;
+    margin-top: -10px;
+    
+.main_div .rectangle1{
+    margin-left: 30px;
+    width: 40px;
+    margin-top:-7px;
+}
+.main_div .rectangle2{
+    margin-left: 100px;
+    width: 80px;
+    margin-top: -4px;
+}
+    .line {
+    width: 100%;
+    margin-top: 0px;
+}
+.main_div{
+    width: 100%;
+}
+.rectangle2 {
+    width: 10%;
+    height: 1px;
+}
+.laptop-div img {
+    height: 130px;
+    width: 130px;
+    float: right;
+    margin-top: 80px;
+}
+.offer-content {
+   
+    float: left;
+    width: 100%;
+    margin-left:0px;
+    margin-right: 0px;
+}
+.offer-content .content1{
+    margin-left: 10px;
+    margin-right:10px ;
+    margin-top: 20px;
+}
+.offer-content .content2{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.offer-content .content3{
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 20px;
+background-color: rd;
+}
+.offer-content .content3 .content-def{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.offer-content .vector{
+    width: 120px;
+    height: 120px;
+}
+
+.offer-content .content-head{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.offer-content .content-def{
+    font-size:20px;
+    margin-top: 15px;
+    margin-left:-2px;
+}
+
+.offer{
+    margin-top: -70px;
+    width: 100%;
+}
+.offer .offer-title{
+    font-size: 40px;
+}
+}
 `;
 
 const Third = () => {
@@ -207,7 +294,7 @@ const Third = () => {
 <div className="content1">
 <svg class="vector" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 290 366" fill="none"><path d="M198.599 21C137.098 60.0096 79.5353 133.327 26.7694 180.237C-14.3347 216.78 142.896 117.934 198.599 97.398C205.405 94.8889 229.505 87.3943 222.127 104.306C198.599 126.07 173.3 147.202 160.42 156.062C126.398 179.467 127.358 175.217 94.9702 200.06C84.3925 208.174 74.1505 216.635 64.9653 225.779C56.859 233.85 36.5739 252.922 49.368 254.261C56.6399 255.022 63.2256 250.092 69.3272 246.822C83.1565 239.409 95.8633 230.719 108.849 222.378C138.094 203.594 181.485 173.042 213.271 156.062C215.263 154.998 257.351 132.574 235.213 157.763C203.325 194.045 157.28 221.464 122.464 255.855C115.482 262.751 106.632 269.413 104.091 278.067C103.197 281.11 231.813 200.177 235.213 198.659C261.003 187.139 189.125 230.131 207.059 217.49C222.389 206.684 267.22 176.169 258.609 191.027C258.609 191.027 288.718 191.027 246.43 233.751C159.637 321.436 235.213 255.855 122.464 346" stroke="#63E7DA" stroke-width="40" stroke-linecap="round"></path><text x="120" y="220" font-family="cursive" font-size="130" fill="white">1</text></svg>
 <div class="content-head">24/7 Customer Support.</div>
-<div class="content-def">If you have any queries donot wait, we are here for you 24/7.</div>
+<div class="content-def">If you have any queries don't wait, we are here for you 24/7.</div>
 </div>
 <div class="content2"><svg class="vector" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 290 366" fill="none"><path d="M198.599 21C137.098 60.0096 79.5353 133.327 26.7694 180.237C-14.3347 216.78 142.896 117.934 198.599 97.398C205.405 94.8889 229.505 87.3943 222.127 104.306C198.599 126.07 173.3 147.202 160.42 156.062C126.398 179.467 127.358 175.217 94.9702 200.06C84.3925 208.174 74.1505 216.635 64.9653 225.779C56.859 233.85 36.5739 252.922 49.368 254.261C56.6399 255.022 63.2256 250.092 69.3272 246.822C83.1565 239.409 95.8633 230.719 108.849 222.378C138.094 203.594 181.485 173.042 213.271 156.062C215.263 154.998 257.351 132.574 235.213 157.763C203.325 194.045 157.28 221.464 122.464 255.855C115.482 262.751 106.632 269.413 104.091 278.067C103.197 281.11 231.813 200.177 235.213 198.659C261.003 187.139 189.125 230.131 207.059 217.49C222.389 206.684 267.22 176.169 258.609 191.027C258.609 191.027 288.718 191.027 246.43 233.751C159.637 321.436 235.213 255.855 122.464 346" stroke="#63E7DA" stroke-width="40" stroke-linecap="round"></path><text x="120" y="220" font-family="cursive" font-size="130" fill="white">2</text></svg><div class="content-head">Perfection</div><div class="content-def">Perfect Design With Responsive Pages</div></div>
 <div class="content3"><svg class="vector" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 290 366" fill="none"><path d="M198.599 21C137.098 60.0096 79.5353 133.327 26.7694 180.237C-14.3347 216.78 142.896 117.934 198.599 97.398C205.405 94.8889 229.505 87.3943 222.127 104.306C198.599 126.07 173.3 147.202 160.42 156.062C126.398 179.467 127.358 175.217 94.9702 200.06C84.3925 208.174 74.1505 216.635 64.9653 225.779C56.859 233.85 36.5739 252.922 49.368 254.261C56.6399 255.022 63.2256 250.092 69.3272 246.822C83.1565 239.409 95.8633 230.719 108.849 222.378C138.094 203.594 181.485 173.042 213.271 156.062C215.263 154.998 257.351 132.574 235.213 157.763C203.325 194.045 157.28 221.464 122.464 255.855C115.482 262.751 106.632 269.413 104.091 278.067C103.197 281.11 231.813 200.177 235.213 198.659C261.003 187.139 189.125 230.131 207.059 217.49C222.389 206.684 267.22 176.169 258.609 191.027C258.609 191.027 288.718 191.027 246.43 233.751C159.637 321.436 235.213 255.855 122.464 346" stroke="#63E7DA" stroke-width="40" stroke-linecap="round"></path><text x="120" y="220" font-family="cursive" font-size="130" fill="white">3</text></svg><div class="content-head">Dedication</div><div class="content-def">Our highly dedicated team ensures the on time completion and delivery of the project.</div></div>

@@ -40,7 +40,7 @@ const Container=styled.div`
 .icon{
     display: flex;
     margin-right:20px;
-    color: green;
+    color: #63E7DA;
     margin-top: 0px;
 }
 .side1{

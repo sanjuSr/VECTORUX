@@ -249,69 +249,141 @@ line-height: normal;
     width: 90px;
     color: white;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     width: 100%;
-height: 500px;
+height: 1120px;
     margin-top: -230px;
     .main_div{
         width: 50%;
     }
     .div2{
         margin-left:100px ;
+        
     }
     .div1{
         width: 50%;
     }
 .div23 .txt5{
     margin-left: -100px;
+    
 }
 .div1 .pic{
-    width: 150px;
-    height: 150px;
-    margin-left: 0px;
-    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    margin-left: 100px;
+    
 }
 .div18 .msg{
     width: 100px;
     height: 20px;
-    margin-left: -150px;
-    margin-top: 260px;
+    margin-left: -170px;
+    margin-top: 250px;
 }
 .div18 .button{
     width: 39px;
     height: 20px;
 }
 .div21 .txt3{
-    width: 177px;
-    margin-left: 0px;
+    width: 300px;
+    margin-left: -130px;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 300px;
   }
 .div22 .txt4{
     font-size: 15px;
-    width: 150px;
+    width: 350px;
     height: 50px;
-    margin-left: 0px;
-    margin-top: 25px;
+    margin-left: -180px;
+    margin-top: 20px;
 }
 .div23 .txt5{
     font-size: 15px;
-    margin-left: 0px;
-    margin-top: 95px;
-
+    margin-left: -180px;
+    margin-top: 20px;
 }
 .div100 .txt6{
-    margin-top: -150px;
+    width: 1020px;
+    margin-top: -50px;
     font-size: 15px;
-    margin-left:190px;
-
+    margin-left:20px;
+    margin-top: 0px;
 }
+/* .div100{
+    background-color: red;
+} */
 .div100 .span1{
     font-size: 20px;
     margin-left:0px;
 }
   }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    width: 100%;
+height: 1120px;
+    margin-top: -230px;
+    .main_div{
+        width: 50%;
+    }
+    .div2{
+        margin-left:100px ;
+        
+    }
+    .div1{
+        width: 50%;
+    }
+.div23 .txt5{
+    margin-left: -100px;
+    
+}
+.div1 .pic{
+    width: 300px;
+    height: 300px;
+    margin-left: 350px;
+    
+}
+.div18 .msg{
+    width: 230px;
+    height: 30px;
+    margin-left: -300px;
+    margin-top: 370px;
+}
+.div18 .button{
+    width: 50px;
+    height: 30px;
+}
+
+.div21 .txt3{
+    width: 500px;
+    margin-left: -300px;
+    font-size: 40px;
+    margin-top: 500px;
+  }
   
+.div22 .txt4{
+    font-size: 30px;
+    width: 800px;
+    height: 50px;
+    margin-left: -300px;
+    margin-top: 40px;
+}
+.div23 .txt5{
+    font-size: 30px;
+    margin-left: -300px;
+    margin-top: 60px;
+}
+
+.div100 .txt6{
+    width: 300px;
+    margin-top: -50px;
+    font-size: 30px;
+    margin-left:600px;
+    margin-top: 350px;
+}
+.div100 .span1{
+    font-size: 30px;
+    margin-left:0px;
+}
+   
+  }
 `;
 const Five = () => {
   return (

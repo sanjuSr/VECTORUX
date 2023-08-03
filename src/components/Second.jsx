@@ -102,6 +102,7 @@ margin-top: 20px;
     width: 100%; 
     
   }   */
+  overflow: hidden;
   .main {
     display: flex;
     flex-flow: row wrap;

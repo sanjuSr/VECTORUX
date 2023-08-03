@@ -163,6 +163,7 @@ height:350px ;
     .txt .h2{
         font-size: 15px;
         margin-top: 35px;
+        margin-left: 0px;
     }
     .txt1 .span2{
         font-size: 17px;
